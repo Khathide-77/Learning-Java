@@ -1,0 +1,13 @@
+public class LoopW{
+	public static void main(String[]args){
+
+		int rounds = 3;
+
+		while (rounds != 0){
+			System.out.println("Round "+rounds+" is over!");
+			rounds--;
+		}
+		System.out.println("\nYou have depleted your rounds");
+	}
+	
+}
