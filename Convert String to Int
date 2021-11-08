@@ -1,0 +1,11 @@
+//Create Main Class
+public class Stringer
+{
+	public static void main(String args[])
+	{
+		String seven = "700";					//Declare String
+		int s = Integer.parseInt(seven);		//Convert String to Integer
+
+		System.out.println(seven +" + 100 = "+(s+100)); //Print String and Int in a cool way
+	}
+}
